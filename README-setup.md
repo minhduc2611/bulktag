@@ -1,3 +1,4 @@
+# Setup environment
 1. Install Python > 3.9.0
 
 ```
@@ -22,13 +23,17 @@ poetry install
 pip3 install poetry
 ```
 
+# Run code
+```
+poetry run python keywords.py images/ --openai keyKeyKeyKeyKeyKey
+```
 
-# deactivate the Virtual Environment
+# Deactivate the Virtual Environment
 ```
 deactivate
 ```
 
-# remove the Virtual Environment
+# Remove the Virtual Environment
 ```
 rm -rf myenv
 ```
